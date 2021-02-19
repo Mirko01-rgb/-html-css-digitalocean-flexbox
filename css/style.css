@@ -15,3 +15,84 @@
 
 
 } */
+
+header{
+ /* border: 1px solid black; */
+}
+
+.centratura{
+ width: 80%;
+ margin: 0 auto;
+ /* debug */
+ height: 80px;
+  /* border: 1px solid; */
+}
+
+.logo {
+  height: 50px;
+  width: 180px;
+
+
+
+}
+.logo img{
+  width: 100%;
+
+}
+
+
+.lgmenu ol li{
+  display: inline-block;
+}
+
+nav{
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+}
+
+.hamburger{
+  display:none;
+}
+
+.lgmenu-dropdown{
+  display: none;
+  position: absolute;
+  top:90px;
+  left:0px;
+  background-color: red;
+  width: 100%;
+  padding-left: 30px;    /* per spostare la lista del dropdown */
+}
+
+.hamburger:hover .lgmenu-dropdown{
+  display: block;
+
+}
+
+
+/* jumbotron */
+.contenitore-jumbo{
+  height: 500px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+
+
+
+.jumbo-left{
+  background-color: red;
+  height:200px;
+}
+
+.jumbo-right{
+  background-color: green;
+  height: 200px;
+}
