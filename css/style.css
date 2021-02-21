@@ -117,7 +117,7 @@ p{
   margin: 0;
 }
 
-.contenitore-flex ol{   /* l'ho voluto dare specifico alla lista ol, perchè solo alla lista volevo darlo, dato che h1 e p per centrarli ho usato text-align-center  */
+.contenitore-flex ol{   
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
