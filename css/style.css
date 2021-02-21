@@ -23,9 +23,7 @@ header{
 .centratura{
  width: 80%;
  margin: 0 auto;
- /* debug */
- height: 80px;
-  /* border: 1px solid; */
+
 }
 
 .logo {
@@ -104,8 +102,9 @@ nav{
 }
 
 .contenitore{
-  height: 190px;
-  background-color: yellow
+  min-height: 190px;
+  background-color: yellow;
+  flex-basis:50%;
 }
 
 h1{
@@ -115,10 +114,35 @@ h1{
 
 p{
   text-align: center;
+  margin: 0;
 }
 
-.contenitore-flex ol{
+.contenitore-flex ol{   /* l'ho voluto dare specifico alla lista ol, perchè solo alla lista volevo darlo, dato che h1 e p per centrarli ho usato text-align-center  */
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 
+}
+
+/* carousel */
+.background-color{
+  background-color: lightgrey;
+  height: 500px;
+}
+
+.contenitore-flex-carousel{
+  display: flex;
+  justify-content: center;
+}
+
+.box{
+  height: 300px;
+  width: 400px;
+  background-color: red;
+
+}
+
+.align{
+  align-self:center;
+  margin: 0 30px;
 }
